@@ -19,7 +19,7 @@ https://romannurik.github.io/AndroidAssetStudio/nine-patches.html#&sourceDensity
 
 <h3>使用第三方類別庫 ButterKnife加快View的findViewById開發<h3>
 
-1.build.gradle (Module:app) 加入：
+1.build.gradle (Module:app) 加入：<br/>
 apply plugin: 'com.jakewharton.butterknife' <br/>
 implementation 'com.jakewharton:butterknife:9.0.0-rc1' <br/>
 annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc1' <br/>
