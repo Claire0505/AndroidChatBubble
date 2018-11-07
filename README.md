@@ -17,8 +17,7 @@ https://romannurik.github.io/AndroidAssetStudio/nine-patches.html#&sourceDensity
 在這種情況下，應正確縮放背景，否則將產生模糊的圖像。<br/>
 隨著視圖大小的變化，Android使用Nine Patch文件為縮放背景提供支持。<br/>
 
-<h3>使用第三方類別庫 ButterKnife加快View的findViewById開發<h3>
-
+使用第三方類別庫 ButterKnife加快View的findViewById開發 <br/>
 1.build.gradle (Module:app) 加入：<br/>
 apply plugin: 'com.jakewharton.butterknife' <br/>
 implementation 'com.jakewharton:butterknife:9.0.0-rc1' <br/>
